@@ -1,8 +1,5 @@
 package com.visiondev.ccthrusdaytrivia4
 
-import io.ktor.client.*
-import io.ktor.client.plugins.contentnegotiation.*
-import io.ktor.serialization.kotlinx.json.*
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -19,12 +16,5 @@ class ExampleUnitTest {
     }
 
 
-    @Test
-    suspend fun listRestaurants(){
-        val client = HttpClient{
-            install(ContentNegotiation){
-                json()
-            }
-        }
-    }
+
 }

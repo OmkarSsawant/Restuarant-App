@@ -1,4 +1,4 @@
-package com.visiondev.ccthrusdaytrivia4.data.models
+package com.visiondev.ccthrusdaytrivia4.data.rest
 
 data class Params(
 	val currency: String? = null,
